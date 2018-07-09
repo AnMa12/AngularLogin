@@ -14,16 +14,12 @@ namespace WebApplication1
 
         }
 
-        public DbSet<PaymentModel> Payments { get; set; }
-        public DbSet<OrderModel> Orders { get; set; }
         public DbSet<UserModel> Users { get; set; }
-        public DbSet<CarModel> Cars { get; set; }
 
         internal ApplicationDbContext Include(Func<object, object> p)
         {
             throw new NotImplementedException();
         }
-
-        public DbSet<CartModel> Cart { get; set; }
+    
     }
 }
