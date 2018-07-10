@@ -15,6 +15,7 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './user/sign-up/sign-up.component';
 import { SignInComponent } from './user/sign-in/sign-in.component';
 import { HomeComponent } from './home/home.component';
+import { UserComponent } from './user/user.component';
 
 import { appRoutes } from './routes';
 
@@ -23,7 +24,8 @@ import { appRoutes } from './routes';
     AppComponent,
     SignUpComponent,
     SignInComponent,
-    HomeComponent
+    HomeComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
