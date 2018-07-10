@@ -7,6 +7,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Owin;
+using Owin;
+
+
+[assembly: OwinStartup(typeof(WebApplication1.Startup))]
 
 namespace WebApplication1
 {

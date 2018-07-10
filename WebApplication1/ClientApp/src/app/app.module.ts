@@ -18,6 +18,7 @@ import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
 
 import { appRoutes } from './routes';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { appRoutes } from './routes';
     SignUpComponent,
     SignInComponent,
     HomeComponent,
-    UserComponent
+    UserComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
